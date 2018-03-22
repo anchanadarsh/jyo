@@ -1,0 +1,189 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+#wrap {
+    width: 100%;
+    position: relative;
+    background-color: #e3e3e31f;
+}
+
+.banner {
+    width: 100%;
+}
+
+.banner img {
+    width: 100%;
+}
+
+.header {
+    width: 100%;
+    background-color: #ffffff;
+}
+
+.header ul {
+    list-style-type: none;
+    float: left;
+}
+
+.header li {
+    display: inline;
+    font-size: 18px;
+    font-family: cocon;
+    color: #999;
+    text-decoration: none;
+    border-left: 1px solid #999;
+}
+
+#about {
+    width: 100%;
+}
+
+#about a:hover {
+    color: #333;
+}
+
+.side {
+    width: 33%;
+    float: left;
+    background-color: #0F0;
+    border: 1px solid #000000;
+}
+
+.side img {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#about p {
+    color: #656464;
+    /*font color to be followed throughtout the page*/
+    font-size: 24px;
+    font-family: cocon;
+    text-align: left;
+}
+
+.social {
+    width: 100%;
+}
+
+.social li {
+    list-style-type: none;
+    display: inline;
+    text-align: center;
+}
+
+.social a {
+    font-family: cocon;
+    font-size: 21px;
+    position: relative;
+    color: #656464;
+    padding: 2%;
+}
+
+#end {
+    width: 100%;
+    background-color: #0FC;
+    position: relative;
+}
+
+#end p {
+    color: #656464;
+    ;
+    font-family: cocon;
+    font-size: 24px;
+}
+
+.link li {
+    color: #656464;
+    font-size: 24px;
+}
+
+.navbar-default {
+    background-color: #ffffff!important;
+    border-color: #eee!important;
+}
+
+
+/*Images for jquery-------------------------------------------------------------*/
+
+#show img {
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+#show2 img {
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+#show3 img {
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+
+/*--------------------------------------------form css starts--------------------------------------------*/
+
+.relative-box,
+.contact-form-box .sb-form-input,
+.contact-form-box .sb-form-input .contact-field {
+    position: relative;
+    min-height: 1px;
+    width: 100%;
+    float: left;
+}
+
+.relative-box:after,
+.contact-form-box .sb-form-input:after,
+.contact-form-box .sb-form-input .contact-field:after {
+    content: '';
+    clear: both;
+}
+
+#outbox {
+    height: 100vh;
+    width: 100%;
+    background: #fff;
+}
+
+.contact-form-box {
+    width: 100%;
+    /*    margin-left: 25%;*/
+    /*    margin-top: 200px;*/
+}
+
+.contact-form-box .sb-form-input p {
+    position: absolute;
+    top: 20px;
+    left: 10px;
+    color: #999;
+    transition: all 0.5s;
+}
+
+.contact-form-box .sb-form-input .form-active {
+    top: 0px;
+    color: #0099ff;
+    font-size: 10px !important;
+    font-weight: bold;
+}
+
+.contact-form-box .sb-form-input .contact-field {
+    border: 0;
+    border-bottom: 1px solid #bbb;
+    padding: 15px 10px 5px;
+    display: block;
+    margin-bottom: 10px;
+    background: transparent;
+}
+
+.contact-form-box .sb-form-input .contact-field:focus {
+    outline: 0;
+}
+
+
+/*--------------------------------------------form css ends--------------------------------------------*/
